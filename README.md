@@ -73,18 +73,16 @@ The model achieves high accuracy on validation datasets and produces robust pred
 
 ## Setup Instructions
 
-### Step 1: Clone the Repository
-```bash
 git clone https://github.com/your-username/malicious-url-detection.git
 cd malicious-url-detection
 
-### Step 2: Clone the Repository
+### Step 1: Clone the Repository
 ```bash
 Install Dependencies
 Ensure Python 3.8+ is installed. Then, install the required libraries:
 pip install -r requirements.txt
 
-### Step 3: Clone the Repository
+### Step 2: Clone the Repository
 Run the Application
 Launch the Streamlit app:
 streamlit run app.py
