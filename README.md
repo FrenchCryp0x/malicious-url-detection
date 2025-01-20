@@ -79,6 +79,7 @@ git clone https://github.com/your-username/malicious-url-detection.git
 cd malicious-url-detection
 
 ### Step 2: Clone the Repository
+```bash
 Install Dependencies
 Ensure Python 3.8+ is installed. Then, install the required libraries:
 pip install -r requirements.txt
