@@ -1,5 +1,3 @@
-# malicious-url-detection
-
 # Malicious URL Detection using Fine-Tuned Model 
 
 This project focuses on detecting malicious URLs using a fine-tuned BERT-based model. The application is designed to predict the nature of a given URL, such as benign, phishing, malware, or defacement, based on its characteristics. The model is enhanced to address overfitting issues and provide precise predictions.
