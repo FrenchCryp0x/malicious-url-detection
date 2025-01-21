@@ -3,9 +3,8 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # Load the model and tokenizer
-model_path = "./final-complete-malicious-url-model"  # Update this path as needed
-model = AutoModelForSequenceClassification.from_pretrained(model_path)
-tokenizer = AutoTokenizer.from_pretrained(model_path)
+model = AutoModelForSequenceClassification.from_pretrained("r3ddkahili/final-complete-malicious-url-model")
+tokenizer = AutoTokenizer.from_pretrained("r3ddkahili/final-complete-malicious-url-model")
 
 # Label mapping
 label_mapping = {0: "Benign", 1: "Defacement", 2: "Phishing", 3: "Malware"}
