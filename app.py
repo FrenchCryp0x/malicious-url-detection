@@ -2,9 +2,15 @@ import streamlit as st
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-# Load the model and tokenizer
-model = AutoModelForSequenceClassification.from_pretrained("r3ddkahili/final-complete-malicious-url-model")
-tokenizer = AutoTokenizer.from_pretrained("r3ddkahili/final-complete-malicious-url-model")
+token = "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"  # Replace with your token
+
+model = AutoModelForSequenceClassification.from_pretrained(
+    "r3ddkahili/final-complete-malicious-url-model", use_auth_token=token
+)
+tokenizer = AutoTokenizer.from_pretrained(
+    "r3ddkahili/final-complete-malicious-url-model", use_auth_token=token
+)
+
 
 # Label mapping
 label_mapping = {0: "Benign", 1: "Defacement", 2: "Phishing", 3: "Malware"}
