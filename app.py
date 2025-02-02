@@ -2,7 +2,7 @@ import streamlit as st
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-token = "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"  # Replace with your token
+token = "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"  # Replace with your token
 
 model = AutoModelForSequenceClassification.from_pretrained(
     "r3ddkahili/final-complete-malicious-url-model", use_auth_token=token
