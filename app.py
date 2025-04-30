@@ -7,7 +7,7 @@ from huggingface_hub import login
 import os
 
 # Load Hugging Face token from Streamlit secrets
-hf_token = st.secrets["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"]
+hf_token = st.secrets["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"]
 login(hf_token)
 
 # Load model and tokenizer using token
